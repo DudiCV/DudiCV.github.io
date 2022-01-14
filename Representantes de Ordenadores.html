@@ -1,0 +1,126 @@
+<!-- Representantes de Ordenadores en Paraguay-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Representantes de Ordenadores en Paraguay</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: sans-serif;
+            background-color: white;
+        }
+        header{
+            width: 100%;
+            height: 300px;
+            background: #606c88;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to center, hsla(222, 26%, 33%, 0.726), #606c88), url(Imagenes/consultoria.jpg) center; 
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to center, hsla(222, 26%, 33%, 0.726), #606c88), url(Imagenes/consultoria.jpg) center;
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background-size: cover;
+            background-attachment:fixed;
+            position: relative;
+            align-items: center;
+        }
+        .wave{
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+        .Textos-header{
+            font-size: 30px;
+            color: white;
+            display: flex;
+            height: 100px;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+        .Galeria{
+            background-color: #f2f2f2;
+        }
+        .galery-port{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .imagen-port{
+            width: 30%;
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+        .imagen-port > img{
+            width: 200px;
+            margin-top: 50px;
+            height: auto;
+            object-fit: cover;
+            display: block;
+        }
+        .imagen-port > p > a{
+            text-decoration: none;
+        }
+        .imagen-port > p a:hover{
+            text-decoration: underline;
+        }
+        .back >p > a >  img{
+            width: 70px;
+            height: 70px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <section id="Inicio" class="Textos-header">
+            <h1> Representantes de Ordenadores en Paraguay</h1>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+            style="height: 100%; width: 100%;">
+            <path d="M0.00,49.99 C284.80,164.11 389.76,-38.18 500.00,49.99 L500.00,150.00 L0.00,150.00 Z"
+                style="stroke: none; fill: #fff;"></path>
+        </svg></div>
+    </header>
+    <section class="Galeria">
+        <div class="contenedor">
+            <div class="galery-port">
+                <div class="imagen-port">
+                    <img src="Imagenes/Acer.png" alt="">
+                    <p><a href="https://www.diesa.com.py/sslvpn_logon.shtml">Diesa S.A.</a><p>
+                </div>
+                <div class="imagen-port">
+                    <img src="Imagenes/Apple.png"  alt="" >
+                    <p><a href="https://www.bigmanzana.com/">Big Manzana</a><p>
+                </div>
+                <div class="imagen-port">
+                    <img src="Imagenes/HpStore.png" alt="">
+                    <p><a href="https://www.hpstore.com.py/">Hp Store</a><p>
+                </div>
+                <div class="imagen-port">
+                    <img src="Imagenes/Lenovo.png" alt="">
+                    <p><a href="http://www.psline.com.py/">PSline S.A.</a><p>
+                </div>
+                <div class="imagen-port">
+                    <img src="Imagenes/Dell.png" alt="">
+                    <p><a href="https://www.delltechnologies.com/en-us/index.htm">Dell Technologies</a><p>
+                </div>
+                <div class="imagen-port">
+                    <img src="Imagenes/MSI.png" alt="">
+                    <p><a href="https://latam.msi.com/wheretobuy#1">Latam MSI</a><p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="back">
+    <p><a href="index.html"><img src="Imagenes/Back.png" alt=""></a></p>
+    </div>
+</body>
+</html>

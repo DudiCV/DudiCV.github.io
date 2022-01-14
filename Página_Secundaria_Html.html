@@ -1,0 +1,120 @@
+<!--  Página_Secundaria_Html  -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title> Trabajos con HTML </title>
+    <style>
+        #Contenedor{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: sans-serif;
+            background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+        }
+        header{
+            text-align: center;
+            background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+            padding: 15px;
+        }
+        #Contenedor{
+            background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        #Lista{
+            text-align: center;
+            margin-left: 43%;
+            font-family: fantasy;
+        }
+
+        .imagen{
+            display: flex;
+            text-align: center;
+        }
+        .imagen  > p > a{
+            text-decoration: none;
+            
+        }
+        .imagen  > p > a:hover{
+            text-decoration: underline;
+            
+        }
+        .galeria-port{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        .imagen-port{
+            width: 30%;
+            margin-bottom: 10px;
+            overflow: hidden;
+
+        }
+        .imagen-port > img{
+            width: 200px;
+            margin-top: 50px;
+            height: auto;
+            object-fit: cover;
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <section>
+            <h1 class="titulo"> ACTIVIDADES CON HTML  </h1>
+        </section>
+    </header>
+<div id="Contenedor">
+<div id="Lista">
+    <div class="imagen">
+    <img src="Imagenes/Lista.png" alt=""><p><a href="Actividades(HTML)/Actividad 1.html">Actividad 1 </a> </p>
+    </div>
+    <div class="imagen">
+        <img src="Imagenes/Lista.png" alt=""><p><a href="Actividades(HTML)/Actividad 2.html">Actividad 2 </a> </p>
+    </div>
+    <div class="imagen">
+        <img src="Imagenes/Lista.png" alt=""><p><a href="Actividades(HTML)/Actividad 3.html">Actividad 3 </a> </p>
+    </div>
+    <div class="imagen">
+        <img src="Imagenes/Lista.png" alt=""><p><a href="Actividades(HTML)/Actividad 4.html">Actividad 4 </a> </p>
+    </div>
+    <div class="imagen">
+        <img src="Imagenes/Lista.png" alt=""><p><a href="Actividades(HTML)/Actividad 5.html">Actividad 5 </a> </p>
+    </div>
+    <div class="imagen">
+        <img src="Imagenes/Lista.png" alt=""><p><a href="Actividades(HTML)/Actividad 6.html">Actividad 6 </a> </p>
+    </div>
+
+
+</div>
+<section class="portafolio">
+    <div class="contenedor">
+        <div class="galeria-port">
+            <div class="imagen-port">
+                <img src="Imagenes/HTML.png" alt="">
+            </div>
+            <div class="imagen-port">
+                <img src="Imagenes/CSS.png" alt="">
+            </div>
+            <div class="imagen-port">
+                <img src="Imagenes/VisualStudio.png" alt="">
+            </div>
+        </div>
+    </div>
+</section> 
+</div>
+
+<div class="back">
+    <p><a href="index.html"><img src="Imagenes/Back.png" alt=""></a></p>
+    </div>
+</div>
+
+
+</body>
+</html>
